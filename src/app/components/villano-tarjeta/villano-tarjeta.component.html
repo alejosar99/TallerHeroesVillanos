@@ -1,0 +1,18 @@
+<div class="card animated fadeIn fast villano-tarjeta">
+    <img [src]="villano.img" [alt]="villano.nombre" class="card-img-top img-fluid imgVillano">
+    <div class="card-body">
+        <h4 class="card-title display-4">
+            {{villano.nombre}}
+        </h4>
+        <p class="card-text">
+            {{villano.bio | slice:0:250}}...
+        <p class="card-text">
+            <small class="text-muted">
+                {{villano.aparicion}}
+            </small>
+        </p> 
+        <button (click)="verVillano()" type="button" class="btn btn-outline-danger">
+            Ver mas...
+        </button>        
+    </div>
+</div>

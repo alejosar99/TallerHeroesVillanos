@@ -1,0 +1,10 @@
+.villano-tarjeta{
+    float: left;
+    margin: 1%;
+    width: 30%;
+}
+.imgVillano{
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
